@@ -93,7 +93,6 @@
     color: #FFFFFF;
     font-size: 15px;
     font-weight: 500;
-    text-transform: uppercase;
     outline: none;
 }
 
@@ -156,13 +155,13 @@
     }
     
     .header-carousel .owl-carousel-item img {
-        position: absolute;
+        position: fixed;
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
 
-    .header-carousel .owl-carousel-item h5,
+    .header-carousel .owl-carousel-item h6,
     .header-carousel .owl-carousel-item p {
         font-size: 14px !important;
         font-weight: 400 !important;
@@ -258,6 +257,7 @@
     position: relative;
     display: inline-block;
     padding: 0 60px;
+    color: #739abc;
 }
 
 .section-title.text-start h1 {
@@ -265,14 +265,14 @@
 }
 
 .section-title h1::before,
-.section-title h1::after {
+/* .section-title h1::after {
     position: absolute;
     content: "";
     width: 45px;
     height: 5px;
     bottom: 0;
-    background: var(--dark);
-}
+    background: var(--primary);
+} */
 
 .section-title h1::before {
     left: 0;
